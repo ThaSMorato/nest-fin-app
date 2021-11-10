@@ -3,6 +3,8 @@
 if [ ! -f ".env" ]; then
   cp .env.example .env
 fi
+echo "initializating npm"
 
-npm install
-npm run start:dev
+
+yarn
+yarn start:dev
